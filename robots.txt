@@ -1,0 +1,5 @@
+
+User-agent: *
+Disallow:
+
+Sitemap: https://palestinian-issue.netlify.app/sitemap.xml

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فلسطين.. القضية والتحرير</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- الهيدر -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="animate__animated animate__fadeInDown">فلسطين.. القضية والتحرير</h1>
+            <p class="animate__animated animate__fadeInUp">تاريخ من الصمود.. وجرائم لن تُنسى.. وأمل لا ينضب</p>
+        </div>
+    </header>
+
+    <!-- شريط الإحصاءات -->
+    <div class="stats-bar no-print">
+        <div class="stat-item">
+            <span class="stat-number" id="martyrs-count">35,000+</span>
+            <span>شهيد منذ 1948</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" id="refugees-count">7,000,000+</span>
+            <span>لاجئ فلسطيني</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" id="settlements-count">280+</span>
+            <span>مستوطنة غير قانونية</span>
+        </div>
+    </div>
+
+    <!-- المحتوى الرئيسي -->
+    <div class="container">
+        <!-- القسم 1: فلسطين في التاريخ الإسلامي -->
+        <section class="animate-on-scroll" id="history">
+            <h2>فلسطين في التاريخ الإسلامي</h2>
+
+            <h3>الأهمية الدينية</h3>
+            <p>فلسطين أرض مباركة ذكرت في القرآن الكريم في عدة مواضع، وهي أرض الإسراء والمعراج حيث أسري بالنبي محمد صلى
+                الله عليه وسلم من المسجد الحرام إلى المسجد الأقصى. قال تعالى: <q>سُبْحَانَ الَّذِي أَسْرَى بِعَبْدِهِ
+                    لَيْلًا مِنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الْأَقْصَى الَّذِي بَارَكْنَا حَوْلَهُ</q>
+                (الإسراء:1).</p>
+
+            <h3>الفتح الإسلامي لفلسطين</h3>
+            <p>فتح المسلمون فلسطين في عهد الخليفة عمر بن الخطاب رضي الله عنه سنة 15 هـ / 636 م، بعد معركة اليرموك
+                الشهيرة. وقد أعطى عمر أهلها الأمان بما عرف بالعهدة العمرية التي تضمنت حقوقهم وحرية عبادتهم.</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">637 م</div>
+                    <h3>الفتح الإسلامي</h3>
+                    <p>دخل الخليفة عمر بن الخطاب القدس وسلمه البطريرك صفرونيوس مفاتيح المدينة بعد حصار قصير.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1099 م</div>
+                    <h3>الاحتلال الصليبي</h3>
+                    <p>سقطت القدس بيد الصليبيين بعد مجزرة راح ضحيتها عشرات الآلاف من المسلمين واليهود.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1187 م</div>
+                    <h3>تحرير صلاح الدين</h3>
+                    <p>استعاد صلاح الدين الأيوبي القدس بعد انتصاره في معركة حطين، وعامل السكان معاملة إنسانية.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1517 م</div>
+                    <h3>العهد العثماني</h3>
+                    <p>دخلت فلسطين تحت حكم الدولة العثمانية واستمرت كذلك لأربعة قرون.</p>
+                </div>
+            </div>
+
+            <div class="infographic">
+                <h3>خريطة فلسطين التاريخية</h3>
+                <img src="pss.jpg" alt="خريطة فلسطين التاريخية">
+                <p>خريطة توضح حدود فلسطين التاريخية قبل الاحتلال البريطاني والصهيوني</p>
+            </div>
+        </section>
+
+        <!-- القسم 2: جرائم الاحتلال -->
+        <section class="animate-on-scroll" id="crimes">
+            <h2>جرائم الاحتلال الصهيوني</h2>
+            <p>منذ النكبة عام 1948، ارتكب الكيان الصهيوني آلاف الجرائم بحق الشعب الفلسطيني، من التطهير العرقي إلى
+                المجازر الجماعية والتدمير المنظم.</p>
+
+            <h3>أبرز المجازر</h3>
+            <div class="crimes-grid">
+                <div class="crime-card">
+                    <img src="dna.jpg" alt="مجزرة دير ياسين" class="crime-image">
+                    <div class="crime-content">
+                        <h4 class="crime-title">مجزرة دير ياسين</h4>
+                        <div class="crime-date">9 أبريل 1948</div>
+                        <p>قتل فيها أكثر من 107 فلسطينيين بينهم نساء وأطفال وشيوخ على يد عصابات الإرغون وشتيرن.</p>
+                    </div>
+                </div>
+
+                <div class="crime-card">
+                    <img src="sapra.avif" alt="مجزرة صبرا وشاتيلا" class="crime-image">
+                    <div class="crime-content">
+                        <h4 class="crime-title">مجزرة صبرا وشاتيلا</h4>
+                        <div class="crime-date">16-18 سبتمبر 1982</div>
+                        <p>مجزرة استمرت 3 أيام راح ضحيتها ما بين 700 إلى 3500 فلسطيني بمساعدة الجيش الإسرائيلي.</p>
+                    </div>
+                </div>
+
+                <div class="crime-card">
+                    <img src="md.jpg" alt="مجزرة مستشفى المعمداني" class="crime-image">
+                    <div class="crime-content">
+                        <h4 class="crime-title">مجزرة مستشفى المعمداني</h4>
+                        <div class="crime-date">17 أكتوبر 2023</div>
+                        <p>قصف إسرائيلي لمستشفى المعمداني في غزة أدى إلى مقتل أكثر من 500 مدني بينهم أطفال ومرضى.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3>إحصاءات صادمة</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>نوع الجريمة</th>
+                        <th>العدد</th>
+                        <th>الفترة</th>
+                        <th>المصدر</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>عدد الشهداء منذ 1948</td>
+                        <td>أكثر من 35,000</td>
+                        <td>1948-2023</td>
+                        <td>وزارة الصحة الفلسطينية</td>
+                    </tr>
+                    <tr>
+                        <td>اللاجئون الفلسطينيون</td>
+                        <td>7.2 مليون</td>
+                        <td>2023</td>
+                        <td>الأونروا</td>
+                    </tr>
+                    <tr>
+                        <td>المعتقلون منذ 1967</td>
+                        <td>أكثر من مليون</td>
+                        <td>1967-2023</td>
+                        <td>نادي الأسير</td>
+                    </tr>
+                    <tr>
+                        <td>المستوطنات غير القانونية</td>
+                        <td>280 مستوطنة</td>
+                        <td>2023</td>
+                        <td>الأمم المتحدة</td>
+                    </tr>
+                    <tr>
+                        <td>المباني المدمرة في غزة 2023</td>
+                        <td>أكثر من 50,000</td>
+                        <td>أكتوبر-نوفمبر 2023</td>
+                        <td>هيئة الاستعلام الفلسطينية</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="infographic">
+                <h3>خريطة التوسع الاستيطاني</h3>
+                <img src="tos.jpg" alt="خريطة التوسع الاستيطاني">
+                <p>خريطة توضح التوسع الاستيطاني الصهيوني في الضفة الغربية منذ 1967 حتى اليوم</p>
+            </div>
+        </section>
+
+        <!-- القسم 3: معركة طوفان الأقصى -->
+        <section class="animate-on-scroll" id="tofan">
+            <h2>معركة طوفان الأقصى</h2>
+            <p>في 7 أكتوبر 2023، شنت كتائب القسام والكتائب الفلسطينية عملية "طوفان الأقصى" رداً على انتهاكات الاحتلال
+                للمسجد الأقصى، والتي شكلت نقطة تحول في تاريخ المقاومة الفلسطينية.</p>
+
+            <h3>أحداث اليوم الأول</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">6:30 صباحًا</div>
+                    <p>إطلاق أكثر من 5000 صاروخ من غزة تجاه المستوطنات المحيطة وغلاف غزة.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">7:15 صباحًا</div>
+                    <p>اقتحام مقاتلون فلسطينيون لحواجز الاحتلال وتحرير معبر إيرز.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">8:00 صباحًا</div>
+                    <p>تحرير عشرات الأسرى الفلسطينيين من سجون الاحتلال داخل غلاف غزة.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">12:00 ظهرًا</div>
+                    <p>إعلان حالة الطوارئ في الكيان الصهيوني واستدعاء الاحتياط.</p>
+                </div>
+            </div>
+
+            <h3>إنجازات المقاومة</h3>
+            <ul style="margin: 1rem 0; padding-left: 2rem;">
+                <li>تدمير عشرات الدبابات والمدرعات الإسرائيلية.</li>
+                <li>قتل وإصابة المئات من جنود الاحتلال.</li>
+                <li>أسر عشرات الجنود الإسرائيليين.</li>
+                <li>إرباك الجيش الإسرائيلي لمدة أيام.</li>
+                <li>إعادة القضية الفلسطينية إلى الواجهة العالمية.</li>
+            </ul>
+
+            <div class="infographic">
+                <h3>خريطة عمليات طوفان الأقصى</h3>
+                <img src="tof.jpg" alt="خريطة عمليات طوفان الأقصى">
+                <p>خريطة توضح نقاط الاشتباك والعمليات في اليوم الأول من معركة طوفان الأقصى</p>
+            </div>
+        </section>
+
+        <!-- القسم 4: المقاومة والأمل -->
+        <section class="animate-on-scroll" id="resistance">
+            <h2>المقاومة والأمل</h2>
+            <p>على الرغم من كل الجرائم والاحتلال، يبقى الشعب الفلسطيني صامدًا ومقاومًا، جيلاً بعد جيل، مؤمنًا بحتمية
+                النصر.</p>
+
+            <h3>أشكال المقاومة</h3>
+            <div class="crimes-grid">
+                <div class="crime-card" style="border-top-color: var(--palestine-green);">
+                    <img src="mk.jpg" alt="المقاومة المسلحة" class="crime-image">
+                    <div class="crime-content">
+                        <h4 class="crime-title">المقاومة المسلحة</h4>
+                        <p>كتائب القسام، سرايا القدس، وغيرها من الفصائل التي تقاوم الاحتلال.</p>
+                    </div>
+                </div>
+
+                <div class="crime-card" style="border-top-color: var(--palestine-green);">
+                    <img src="heg.jpg" alt="مقاومة الأطفال" class="crime-image">
+                    <div class="crime-content">
+                        <h4 class="crime-title">مقاومة الأطفال</h4>
+                        <p>أطفال الحجارة الذين يواجهون الدبابات بالحجارة في انتفاضات متتالية.</p>
+                    </div>
+                </div>
+
+                <div class="crime-card" style="border-top-color: var(--palestine-green);">
+                    <img src="tha.jpg" alt="المقاومة الثقافية" class="crime-image">
+                    <div class="crime-content">
+                        <h4 class="crime-title">المقاومة الثقافية</h4>
+                        <p>الحفاظ على التراث الفلسطيني والهوية رغم محاولات الطمس.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3>رسالة دعم للمقاومة</h3>
+            <div class="support-form">
+                <p>اكتب رأيك في البحث:</p>
+                <textarea placeholder="اكتب رسالتك هنا..."></textarea>
+                <form action="/submit" method="dialog">
+                    <button type="submit">إرسال </button>
+                </form>
+
+                <style>
+                    button[type="submit"] {
+                        background-color: var(--palestine-red);
+                        color: white;
+                        border: none;
+                        padding: 12px 30px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        cursor: pointer;
+                        border-radius: 6px;
+                    }
+                </style>
+                `
+
+
+            </div>
+
+        </section>
+    </div>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#history">التاريخ</a>
+            <a href="#crimes">جرائم الاحتلال</a>
+            <a href="#tofan">طوفان الأقصى</a>
+            <a href="#resistance">المقاومة</a>
+        </div>
+
+        <p>جميع الحقوق محفوظة © 2023 - فلسطين حرة</p>
+
+
+    </footer>
+
+    <!-- أزرار عائمة -->
+    <div class="floating-btns no-print">
+
+
+
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="floating-btn" id="top-btn"
+            title="العودة للأعلى">↑</button>
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
